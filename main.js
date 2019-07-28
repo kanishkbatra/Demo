@@ -1,3 +1,5 @@
+//functions to toggle info on sidebar
+
 function myFunction() {
     var x = document.getElementById("myDIV");
     if (x.style.display === "none") {
@@ -65,6 +67,8 @@ function myFunction() {
     }
   }
 
+
+//function to clone the cards
 var i;
 
 for (i = 0; i < 33; i++) { 
