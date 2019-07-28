@@ -1,0 +1,119 @@
+#mainnavbar .navbar-brand{
+    color: #ea1c2c;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#mainnavbar{
+    font-size: 1.5rem;
+    font-weight: 300;  
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    background:#1c1b17;
+}
+
+#mainnavbar .nav-link:hover{
+    color: #ea1c2c;
+}
+
+#mainnavbar .nav-link{
+    color: white;
+}
+
+body{
+    background-color: #ededeb;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cont{
+    padding-top:52px; 
+}
+
+.carousel-inner img{
+    height: 25rem;
+    width:100%;
+}
+
+.container-fluid{
+    margin-top: 10px;
+}
+
+.jumbotron{
+    padding: 0;
+    margin-top: 3.8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.card-header{
+    color: #ea1c2c;
+    font-weight: 600;
+}
+
+.rem-b{
+    border: none;
+    padding-top: 6px;   
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-header{
+    position: relative;
+}
+
+.buttonpos{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.card-img-top{
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+
+.places{
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.card-body{
+    padding-top: 0px;
+}
+
+.mark{
+    background-color: #dbd8d0
+}
+
+.card-img-overlay{
+    color: white;
+}
+
+.video{
+    position: absolute;
+    right: 10px;
+    top: 8%;
+}
+
+.image{
+    position: absolute;
+    top: 8%;
+    right: 40px;
+}
+
+.rating{
+    position: absolute;
+    top: 29%;
+    left: 10px;
+}
+
+
+.card-deck {
+    margin-bottom: 15px;
+}

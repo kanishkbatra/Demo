@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
+        <title>Demo</title>
+
+    </head>
+
+    <body>
+        <div>
+        <nav id="mainnavbar" class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">DEMOsite</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Weekend
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Weekend Getaways</a>
+                                <a class="dropdown-item" href="#">Explore</a>
+                                <a class="dropdown-item" href="#">Collections</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Blog</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Destinations
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">By Region</a>
+                                <a class="dropdown-item" href="#">By Category</a>
+                                <a class="dropdown-item" href="#">International</a>
+                            </div>
+                        </li>       
+                    </ul>                 
+            <form class="form-inline my-2 my-lg-0 mr-2">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+        </nav>
+        <div class="jumbotron">
+        <div class="bd-example">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="2000">
+                    <img src="https://accelerator-origin.kkomando.com/wp-content/uploads/2019/05/beach-vacation.jpg" class="d-block" alt="image-1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                    <img src="https://blog1.fkimg.com/wp-content/uploads/2015/04/Estes-Park-Gondola-Featured.jpg" class="d-block" alt="image-2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                    <img src="https://www.travelchale.com/wp-content/uploads/2018/04/winter-vacation-merano-hotel.jpg" class="d-block" alt="image-3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+            </div>
+        </div>
+
+            <div class="container-fluid">
+                <div class="row px-4 mb-4">
+                    <div class="col-sm-3">
+                        <div class="row">
+                                <div class="card" style="width: 18rem;">
+                                        <div class="card-header">
+                                            Activities
+                                            <button class="buttonpos" onclick="myFunction()"><i class="fas fa-caret-down"></i></button>
+                                        </div>
+                                        <span class="rem-b" id="myDIV">
+                                        <form action="" style="padding-left: 4px">
+                                                <input type="checkbox" name="Activities" value="Honeymoon" style="margin:5px"> Honeymoon<br>
+                                                <input type="checkbox" name="Activities" value="Beach" style="margin:5px"> Beach<br>
+                                                <input type="checkbox" name="Activities" value="Boutique" style="margin:5px"> Boutique<br>
+                                                <input type="checkbox" name="Activities" value="Budget" style="margin:5px"> Budget<br>
+                                                <input type="checkbox" name="Activities" value="Luxury" style="margin:5px"> Luxury<br>
+                                                <input type="checkbox" name="Activities" value="Family" style="margin:5px"> Family<br>
+                                        </form>
+                                </span>
+                                </div>
+                        </div>
+                        <div class="row mt-3">
+                                <div class="card" style="width: 18rem;">
+                                        <div class="card-header">
+                                            Region
+                                            <button class="buttonpos" onclick="myFunction1()"><i class="fas fa-caret-down"></i></button>
+                                        </div>
+                                        <span class="rem-b" id="myDIV1">
+                                                <form action="" style="padding-left: 4px">
+                                                        <input type="radio" name="region" value="Across Country" style="margin:5px"> Across Country<br>
+                                                        <input type="radio" name="region" value="North India" style="margin:5px"> North India<br>
+                                                        <input type="radio" name="region" value="South India" style="margin:5px"> South India<br>
+                                                        <input type="radio" name="region" value="East India" style="margin:5px"> East India<br>
+                                                        <input type="radio" name="region" value="West India" style="margin:5px"> West India<br>
+                                                        <input type="radio" name="region" value="Central India" style="margin:5px"> Central India<br>
+                                                        <input type="radio" name="region" value="North-East" style="margin:5px"> North-East<br>
+                                                        <input type="radio" name="region" value="International" style="margin:5px"> International<br>
+                                                </form>
+                                        </span>
+                                </div>
+                        </div>
+                        <div class="row mt-3">
+                                <div class="card" style="width: 18rem;">
+                                        <div class="card-header">
+                                            Activities
+                                            <button class="buttonpos" onclick="myFunction2()"><i class="fas fa-caret-down"></i></button>
+                                        </div>
+                                        <span class="rem-b" id="myDIV2">
+                                        <form action="" style="padding-left: 4px">
+                                                <input type="radio" name="activities" value="Water Sports" style="margin:5px"> Water Sports<br>
+                                                <input type="radio" name="activities" value="Trekking" style="margin:5px"> Trekking<br>
+                                                <input type="radio" name="activities" value="Snow Sport" style="margin:5px"> Snow Sport<br>
+                                                <input type="radio" name="activities" value="Extreme Sports" style="margin:5px"> Extreme Sports<br>
+                                                <input type="radio" name="activities" value="Adventures" style="margin:5px"> Adventures<br>
+                                        </form>
+                                </span>
+                                </div>
+                        </div>
+                        <div class="row mt-3">
+                                <div class="card" style="width: 18rem;">
+                                        <div class="card-header">
+                                            Best Time to Visit
+                                            <button class="buttonpos" onclick="myFunction3()"><i class="fas fa-caret-down"></i></button>
+                                        </div>
+                                        <span class=" rem-b" id="myDIV3">
+                                                <form action="" style="padding-left: 4px">
+                                                        <input type="radio" name="timetovisit" value="Jan, Feb, March" style="margin:5px"> Jan, Feb, March<br>
+                                                        <input type="radio" name="timetovisit" value="April, May, June" style="margin:5px"> April, May, June<br>
+                                                        <input type="radio" name="timetovisit" value="July, August, September" style="margin:5px"> July, August, September<br>
+                                                        <input type="radio" name="timetovisit" value="October, November, December" style="margin:5px"> October, November, December<br>
+                                                </form>
+                                        </span>
+                                </div>
+                        </div>
+                        <div class="row mt-3">
+                                <div class="card" style="width: 18rem;">
+                                        <div class="card-header">
+                                            Popularity
+                                            <button class="buttonpos" onclick="myFunction4()"><i class="fas fa-caret-down"></i></button>
+                                        </div>
+                                        <div class="list-group" id="list-tab" id="myDIV4" role="tablist">
+                                            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list">Must Visit</a>
+                                            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list">Offbeat</a> 
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="row mt-3">
+                                <div class="card" style="width: 18rem;">
+                                        <div class="card-header">
+                                            Places to Visit
+                                            <button class="buttonpos" onclick="myFunction5()"><i class="fas fa-caret-down"></i></button>
+                                        </div>
+                                        <span class=" rem-b" id="myDIV5">
+                                                <form action="" style="padding-left: 4px">
+                                                        <input type="checkbox" name="placetovisit" value="Goa" style="margin:5px"> Goa<br>
+                                                        <input type="checkbox" name="placetovisit" value="Delhi" style="margin:5px"> Delhi<br>
+                                                        <input type="checkbox" name="placetovisit" value="Manali" style="margin:5px"> Manali<br>
+                                                        <input type="checkbox" name="placetovisit" value="Shimla" style="margin:5px"> Shimla<br>
+                                                        <input type="checkbox" name="placetovisit" value="Kashmir" style="margin:5px"> Kashmir<br>
+                                                        <input type="checkbox" name="placetovisit" value="Chennai" style="margin:5px"> Chennai<br>
+                                                </form>
+                                        </span>
+                                </div>
+                        </div>
+                        <div class="row mt-3">
+                                <div class="card" style="width: 18rem;">
+                                        <div class="card-header">
+                                            Budget
+                                            <button class="buttonpos" onclick="myFunction6()"><i class="fas fa-caret-down"></i></button>
+                                        </div>
+                                        <span class="rem-b" id="myDIV6">
+                                        <form action="" style="padding-left: 4px">
+                                                <input type="radio" name="price" value="Less than Rs. 5000" style="margin:5px"> Less than Rs. 5000<br>
+                                                <input type="radio" name="price" value="Rs. 5000 - 10000" style="margin:5px"> Rs. 5000 - 10000<br>
+                                                <input type="radio" name="price" value="Rs. 10000 - 15000" style="margin:5px"> Rs. 10000 - 15000<br>
+                                                <input type="radio" name="price" value="Rs. 15000 - 20000" style="margin:5px"> Rs. 15000 - 20000<br>
+                                                <input type="radio" name="price" value="Rs. 20000 - 25000" style="margin:5px"> Rs. 20000 - 25000<br>
+                                                <input type="radio" name="price" value="More than Rs. 25000" style="margin:5px"> More than Rs. 25000<br>
+                                        </form>
+                                </span>
+                                </div>
+                        </div>
+                        <div class="row mt-3">
+                                <div class="card" style="width: 18rem;">
+                                        <div class="card-header">
+                                            Days
+                                            <button class="buttonpos" onclick="myFunction7()"><i class="fas fa-caret-down"></i></button>
+                                        </div>
+                                        <span class="rem-b" id="myDIV7">
+                                        <div id="slider" style="padding-left: 3rem; padding-top:0.4rem" >
+                                            <input class="bar" type="range" id="rangeinput" value="7" onchange="rangevalue.value=value" min="0" max="18"/>
+                                            <span class="highlight"></span>
+                                            <output id="rangevalue">7</output>
+                                        </div>
+                                </span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                            <div class="row" id="topaste">
+                                <div class="card-deck" id="tocopy">
+                                    <div class="card">
+                                        <h5 class="card-title my-2 ml-3">Gangtok, Sikkim</h5>
+                                        <img class="card-img-top" src="https://www.thenational.ae/image/policy:1.156949:1499293771/image/jpeg.jpg?f=16x9&w=1200&$p$f$w=dfa40e8" alt="Card image cap">
+                                        <div class="card-img-overlay">
+                                            <button class="btn-small btn-primary rating" disabled>
+                                                4.5/5
+                                            </button>
+                                            <button class="btn-small btn-secondary image"><i class="far fa-images"></i></button>
+                                            <button class="btn-small btn-secondary video"><i class="fas fa-play-circle"></i></button>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="places border-bottom pb-1">PLACES: <a href=#>Nathu La Pass </a>|<a href=#> MG Road, Gangtok </a>|<a href="#"> Rumtek Monastery </a>| +5 more </p>
+                                            <button type="button" class="btn btn-light m-1 btn-sm" >Packages</button>
+                                            <button type="button" class="btn btn-light m-1 btn-sm" >Hotels</button>
+                                            <button type="button" class="btn btn-light m-1 btn-sm" >Flight</button>
+                                            <button type="button" class="btn btn-light m-1 btn-sm" >Activities</button>
+                                            <button type="button" class="btn btn-light m-1 btn-sm" >Food</button>
+                                            <p class="mb-1 !important"><span style="color:red">ACTIVITIES</span>: Water Sports, Trekking, Snow Sport</p>
+                                            <p class="pb-1 mb-1 mark">Best Time: Throughout the year</p>
+                                            <p class="border-bottom mb-1"></p>
+                                            <p class="card-text mb-1">Prettily situated on a hillock at an altitude of 1800
+                                                    meters, Gangtok can be safely said to be one of the
+                                                    most beautiful hill country.</p>
+                                            <a href="#" class="btn btn-sm btn-info float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                            <h5 class="card-title my-2 ml-3">Gangtok, Sikkim</h5>
+                                            <img class="card-img-top" src="https://www.thenational.ae/image/policy:1.156949:1499293771/image/jpeg.jpg?f=16x9&w=1200&$p$f$w=dfa40e8" alt="Card image cap">
+                                            <div class="card-img-overlay">
+                                                <button class="btn-small btn-primary rating" disabled>
+                                                    4.5/5
+                                                </button>
+                                                <button class="btn-small btn-secondary image"><i class="far fa-images"></i></button>
+                                                <button class="btn-small btn-secondary video"><i class="fas fa-play-circle"></i></button>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="places border-bottom pb-1">PLACES: <a href=#>Nathu La Pass </a>|<a href=#> MG Road, Gangtok </a>|<a href="#"> Rumtek Monastery </a>| +5 more </p>
+                                                <button type="button" class="btn btn-light m-1 btn-sm" >Packages</button>
+                                                <button type="button" class="btn btn-light m-1 btn-sm" >Hotels</button>
+                                                <button type="button" class="btn btn-light m-1 btn-sm" >Flight</button>
+                                                <button type="button" class="btn btn-light m-1 btn-sm" >Activities</button>
+                                                <button type="button" class="btn btn-light m-1 btn-sm" >Food</button>
+                                                <p class="mb-1 !important"><span style="color:red">ACTIVITIES</span>: Water Sports, Trekking, Snow Sport</p>
+                                                <p class="pb-1 mb-1 mark">Best Time: Throughout the year</p>
+                                                <p class="border-bottom mb-1"></p>
+                                                <p class="card-text mb-1">Prettily situated on a hillock at an altitude of 1800
+                                                        meters, Gangtok can be safely said to be one of the
+                                                        most beautiful hill country.</p>
+                                                <a href="#" class="btn btn-sm btn-info float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                                            </div>
+                                    </div>
+                                    <div class="card">
+                                            <h5 class="card-title my-2 ml-3">Gangtok, Sikkim</h5>
+                                            <img class="card-img-top" src="https://www.thenational.ae/image/policy:1.156949:1499293771/image/jpeg.jpg?f=16x9&w=1200&$p$f$w=dfa40e8" alt="Card image cap">
+                                            <div class="card-img-overlay">
+                                                <button class="btn-small btn-primary rating" disabled>
+                                                    4.5/5
+                                                </button>
+                                                <button class="btn-small btn-secondary image"><i class="far fa-images"></i></button>
+                                                <button class="btn-small btn-secondary video"><i class="fas fa-play-circle"></i></button>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="places border-bottom pb-1">PLACES: <a href=#>Nathu La Pass </a>|<a href=#> MG Road, Gangtok </a>|<a href="#"> Rumtek Monastery </a>| +5 more </p>
+                                                <button type="button" class="btn btn-light m-1 btn-sm" >Packages</button>
+                                                <button type="button" class="btn btn-light m-1 btn-sm" >Hotels</button>
+                                                <button type="button" class="btn btn-light m-1 btn-sm" >Flight</button>
+                                                <button type="button" class="btn btn-light m-1 btn-sm" >Activities</button>
+                                                <button type="button" class="btn btn-light m-1 btn-sm" >Food</button>
+                                                <p class="mb-1 !important"><span style="color:red">ACTIVITIES</span>: Water Sports, Trekking, Snow Sport</p>
+                                                <p class="pb-1 mb-1 mark">Best Time: Throughout the year</p>
+                                                <p class="border-bottom mb-1"></p>
+                                                <p class="card-text mb-1">Prettily situated on a hillock at an altitude of 1800
+                                                        meters, Gangtok can be safely said to be one of the
+                                                        most beautiful hill country.</p>
+                                                <a href="#" class="btn btn-sm btn-info float-right">Read more <i class="fas fa-angle-double-right"></i></a>
+                                            </div>
+                                        </div>
+                                </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="main.js"></script>
+        <script src="jquery-3.4.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
